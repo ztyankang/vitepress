@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: 'https://github.com/ztyankang/vitepress.git',
   title: "陆地神仙",
   description: "vue3Vitepress",
   themeConfig: {
